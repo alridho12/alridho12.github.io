@@ -1,0 +1,776 @@
+@font-face {
+    font-family: airbnb;
+    src: url(AirbnbCereal_W_Md.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+
+}
+
+.container-kotak {
+    position: relative;
+
+}
+
+.kotak {
+    position: absolute;
+    width: 514px;
+    height: 1210px;
+    right: 0;
+    top: 0;
+    background-color: #EFC81A;
+    z-index: -1;
+
+}
+
+.container-border {
+    position: relative;
+
+}
+
+.border {
+    position: absolute;
+    width: 683px;
+    height: 801px;
+    border: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #EFC81A;
+    z-index: -1;
+    left: 338px;
+    top: 1500px;
+}
+
+.container-kotak2 {
+    position: relative;
+
+}
+
+.kotak2 {
+    position: absolute;
+    width: 514px;
+    height: 820px;
+    background-color: #EFC81A;
+    z-index: -1;
+    left: 0px;
+    top: 2579px;
+}
+
+.telur {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 1085px;
+    top: 276px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 53px;
+    align-items: center;
+    width: 100%;
+}
+
+#left-nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+    padding-left: 110px;
+    color: #2E266F;
+    font-size: 18px;
+    font-family: airbnb;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.home:hover {
+    color: yellow;
+}
+
+.add-recipe:hover {
+    color: yellow;
+}
+
+.profile:hover {
+    color: yellow;
+}
+
+.right-nav {
+    justify-content: right;
+    display: flex;
+    color: white;
+}
+
+#right-nav {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-right: 140px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+
+
+#login {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: airbnb;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+#login:hover {
+    color: #2E266F;
+}
+
+.bunderan {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+}
+
+.container-notif {
+    position: relative;
+
+
+}
+
+#notif {
+    width: 15px;
+    height: 15px;
+    background-color: #31A24C;
+    border-radius: 50px;
+    position: absolute;
+    left: 1700px;
+    top: 50px;
+
+}
+
+.container-search {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 132px;
+    padding-top: 414px;
+}
+
+.discover {
+    font-family: airbnb;
+    font-size: 72px;
+    font-style: normal;
+    color: #2E266F;
+    display: flex;
+}
+
+.input-column {
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    width: 670px;
+    height: 90px;
+    border-radius: 15px;
+    padding-left: 50px;
+}
+
+.logo-search {
+    width: 18px;
+    height: 18px;
+}
+
+.search {
+    width: 222px;
+    height: 18px;
+    border: none;
+    background-color: #EFEFEF;
+}
+
+.container-popular {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 401px;
+    padding-left: 135px;
+}
+
+.persegi-popular {
+    width: 25px;
+    height: 140px;
+    background-color: #EFC81A;
+}
+
+.popular {
+    padding-left: 30px;
+    font-family: airbnb;
+    font-style: normal;
+    font-size: 48px;
+    color: #3F3A3A;
+}
+
+.container-healthy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 102px;
+    padding-left: 135px;
+
+}
+
+.item-healthy {
+    padding-left: 250px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.li-healthy {
+    font-family: sans-serif;
+    font-size: 56px;
+    color: #3F3A3A;
+    line-height: 72px;
+}
+
+.li-quick {
+    font-family: airbnb;
+    font-size: 25px;
+    line-height: 32px;
+    color: #3F3A3A;
+    margin-top: 10px;
+}
+
+.learn {
+    border: none;
+    background-color: #EFC81A;
+    color: #EFEFEF;
+    font-family: airbnb;
+    font-size: 16px;
+    width: 200px;
+    height: 64px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.garis {
+    margin-bottom: 30px;
+}
+
+.container-newrecipe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 158px;
+    padding-left: 135px;
+}
+
+.persegi-newrecipe {
+    width: 25px;
+    height: 140px;
+    background-color: #EFC81A;
+}
+
+.newrecipe {
+    padding-left: 30px;
+    font-family: airbnb;
+    font-style: normal;
+    font-size: 48px;
+    color: #3F3A3A;
+}
+
+.container-burger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 136px;
+    padding-left: 135px;
+}
+
+.container-recipe {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 158px;
+    padding-left: 135px;
+}
+
+.persegi-recipe {
+    width: 25px;
+    height: 140px;
+    background-color: #EFC81A;
+}
+
+.recipe {
+    padding-left: 30px;
+    font-family: airbnb;
+    font-style: normal;
+    font-size: 48px;
+    color: #3F3A3A;
+}
+
+.container-gambar {
+    padding-top: 113px;
+    display: flex;
+    width: 1750px;
+    height: 1075px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 135px;
+    z-index: -1;
+
+}
+
+.gambar1 {
+    width: 500px;
+    height: 500px;
+}
+
+.gambar2 {
+    width: 500px;
+    height: 500px;
+}
+
+.gambar3 {
+    width: 500px;
+    height: 500px;
+}
+
+.gambar4 {
+    width: 500px;
+    height: 500px;
+}
+
+.gambar5 {
+    width: 500px;
+    height: 500px;
+}
+
+.gambar6 {
+    width: 500px;
+    height: 500px;
+}
+
+.container-text {
+    position: absolute;
+    display: flex;
+    left: 175px;
+    top: 4294px;
+    width: 1660px;
+    height: 510px;
+}
+
+.text-gambar {
+    list-style: none;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: airbnb;
+    font-style: normal;
+    display: flex;
+    gap: 463px;
+    flex-wrap: wrap;
+}
+
+.bomb {
+    padding-left: 50px;
+}
+
+.banana {
+    padding-left: 50px;
+}
+
+.indian {
+    padding-left: 50px;
+}
+
+.container-last {
+    width: 100%;
+    height: 685px;
+    top: 5173px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.last {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.eat {
+    font-size: 72px;
+    font-family: airbnb;
+    font-style: normal;
+    color: #2E266F;
+}
+
+.share {
+    font-size: 24px;
+    color: #707070;
+    font-family: airbnb;
+    font-style: normal;
+    margin-top: 18px;
+}
+
+.container-footer {
+    background-color: #EFC81A;
+    display: flex;
+    justify-content: center;
+    padding-top: 950px;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+}
+
+.item-footer {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.arkademy {
+    position: absolute;
+    display: flex;
+    padding-left: 1000px;
+    color: black;
+    font-size: 14px;
+}
+
+#menu-nav {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.container-menu {
+    display: none;
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    nav {
+        padding-top: 0px;
+        flex-direction: column;
+
+    }
+
+    .container-menu {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        background-color: #EFC81A;
+        align-items: center;
+    }
+
+    .menu {
+        display: initial;
+        font-family: airbnb;
+        color: #2E266F;
+        /* padding-right: 70%; */
+        padding-left: 20px;
+        padding-top: 5px;
+
+
+    }
+
+    #left-nav {
+        flex-direction: column;
+        padding-left: 20px;
+        justify-content: space-evenly;
+        font-size: small;
+        height: auto;
+        width: 100%;
+        display: none;
+
+    }
+
+    #menu-nav:checked~ul {
+        display: initial;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    #right-nav {
+        display: none;
+    }
+
+    #notif {
+        display: none;
+    }
+
+    .container-search {
+        top: 0px;
+        position: relative;
+        padding-top: 0px;
+        padding-left: 0px;
+
+    }
+
+    .discover {
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .input-column {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        height: 45px;
+        margin-left: 30px;
+    }
+
+    .kotak {
+        top: 220px;
+        left: 50%;
+        width: 50%;
+        height: 700px;
+
+    }
+
+    .telur {
+        left: 32px;
+        width: 300px;
+        height: 300px;
+        top: 220px;
+    }
+
+    .container-popular {
+        padding-top: 0;
+        margin-top: 583px;
+        padding-left: 0;
+        margin-bottom: 17px;
+    }
+
+    .persegi-popular {
+        width: 10px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .popular {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    .container-healthy {
+        padding-top: 0;
+        padding-left: 0;
+        flex-direction: column;
+    }
+
+    .roti-smoothis {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+    }
+
+    .item-healthy {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 72px;
+    }
+
+    .li-healthy {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .garis {
+        width: 310px;
+        margin-bottom: 40px;
+    }
+
+    .li-quick {
+        font-size: 20px;
+    }
+
+    .container-newrecipe {
+        padding-top: 0;
+        margin-top: 80px;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .persegi-newrecipe {
+        width: 10px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .newrecipe {
+        font-size: 20px;
+        margin-left: -20px;
+    }
+
+    .container-burger {
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    .burger {
+        width: 300px;
+        height: 300px;
+    }
+
+    .border {
+        left: 3%;
+        width: 300px;
+        height: 300px;
+        top: 1600px;
+
+    }
+
+    .container-recipe {
+        padding-top: 0;
+        padding-left: 0;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+
+    .persegi-recipe {
+        width: 10px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .container-gambar {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+        padding-top: 0;
+        padding-left: 0;
+        width: auto;
+        height: auto;
+
+    }
+
+    .gambar1 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gambar2 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gambar3 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gambar4 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gambar5 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gambar6 {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container-text {
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        top: 2630px;
+        left: 15%;
+    }
+
+    .text-gambar {
+        font-size: 20px;
+        line-height: normal;
+        gap: 265px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .bomb {
+        padding-left: 0;
+    }
+
+    .banana {
+        padding-left: 0;
+    }
+
+    .indian {
+        padding-left: 0;
+    }
+
+    .kotak2 {
+        top: 2526px;
+        left: 0;
+        width: 100%;
+        height: 1555px;
+    }
+
+    .container-last {
+        height: auto;
+        top: auto;
+        text-align: center;
+        margin-top: 50px;
+        justify-content: flex-start;
+    }
+
+    .container-footer {
+        padding-top: 335px;
+        font-size: 10px;
+    }
+
+    .arkademy {
+        display: none;
+    }
+
+}
